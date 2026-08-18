@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root{
+  --ink:#171717;      /* primary text, near-black */
+  --soft:#6f6a61;     /* secondary/muted text, warm grey */
+  --gold:#b8872d;     /* primary gold accent */
+  --gold2:#e4bd63;    /* light gold, highlights */
+  --champ:#f7ecd1;    /* champagne, icon-chip backgrounds */
+  --cream:#fbf8f1;    /* card backgrounds */
+  --paper:#fff;       /* white */
+  --line:#e8dfcf;     /* borders */
+  --green:#506a54;    /* success / positive */
+  --red:#a34d43;      /* error / negative */
+}
+*{box-sizing:border-box}
+body{margin:0;background:#f2eee5;color:var(--ink);font-family:"DM Sans",Arial,sans-serif;line-height:1.6}
