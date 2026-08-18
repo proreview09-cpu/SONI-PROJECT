@@ -2,7 +2,7 @@ services:
   - type: web
     name: suvarn-bachat-yojana
     runtime: node
-    buildCommand: npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend
+    buildCommand: npm install --prefix backend && npm install --prefix frontend --include=dev && npm run build --prefix frontend
     startCommand: npm start --prefix backend
     envVars:
       - key: NODE_ENV
